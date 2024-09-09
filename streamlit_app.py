@@ -2,6 +2,8 @@ import streamlit as st
 import pickle
 import pandas as pd
 import numpy as np
+import xgboost
+
 
 # Load the model from the file
 with open('xgboost_model.pkl', 'rb') as file:
