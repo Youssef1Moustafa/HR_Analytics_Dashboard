@@ -56,6 +56,6 @@ if st.button("Predict"):
         
         # Make prediction
         prediction = model_xgb.predict(input_data)
-        st.write("Prediction: ", "Attrition" if prediction[0] == 1 else "No Attrition")
+        st.write("Prediction: ", "No" if prediction[0] == 1 else "Yes")
     except Exception as e:
         st.error(f"Error making prediction: {e}")
