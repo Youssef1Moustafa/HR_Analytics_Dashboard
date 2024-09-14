@@ -49,7 +49,7 @@ st.write("Input Data Types:", input_data.dtypes)
 
 # Button to make prediction
 if st.button("Predict"):
-    try:
+    try: 
         # Ensure data types are consistent with what the model expects
         for feature in feature_names:
             input_data[feature] = pd.to_numeric(input_data[feature], errors='coerce')
