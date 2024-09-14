@@ -1,4 +1,3 @@
-```markdown
 # HR_Analytics
 
 ## Overview
@@ -14,7 +13,16 @@
   - Interactive elements for exploring trends and patterns.
 - **Link**: [Power BI Dashboard Link]
 
-### 2. Predictive Model
+### 2. Data Preparation with Power Query
+- **Description**: Power Query was used to import, clean, and transform the data before it was used for analysis and modeling.
+- **Features**:
+  - **Data Import**: Connecting to various data sources to bring in HR data.
+  - **Data Transformation**: Cleaning and reshaping the data to ensure it is in the right format for analysis.
+  - **Data Merging**: Combining data from multiple sources to create a unified dataset.
+- **Resources**:
+  - [Power Query Documentation](https://docs.microsoft.com/en-us/power-query/)
+
+### 3. Predictive Model
 - **Description**: A machine learning model developed to forecast employee attrition based on various features.
 - **Techniques Used**:
   - Logistic Regression
@@ -37,7 +45,7 @@
   - EnvironmentSatisfaction
   - JobInvolvement
 
-### 3. Streamlit Web App
+### 4. Streamlit Web App
 - **Description**: A Streamlit interface for HR professionals to input features and get immediate predictions on employee attrition.
 - **Features**:
   - User input fields for all relevant features.
